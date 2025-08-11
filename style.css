@@ -1,0 +1,90 @@
+/* Reset some default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures width includes padding + border */
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#EFF7CF; /* Soft background for contrast */
+    color: #2e2e2e;
+    line-height: 1.6;
+}
+
+/*Header Styling */
+.site-header {
+    background-color: #733635; /* Garnet */
+    text-align: center;
+    padding: 20px; /* Padding inside header */
+    border-bottom: 2.5px solid #4e2726; /* Chocolate Cosmos border */
+}
+.site-header>h1{
+    color: #BAD9B5;
+}
+.site-header>p{
+    font-weight: 900;
+
+}
+
+
+/*Content Section Styling*/
+.content-section {
+    background-color: #ABA361;
+    margin: 20px auto; /* Space outside the section */
+    padding: 20px; /* Space inside the section */
+    max-width: 800px;
+    border: 3px solid #732C2C; /* Chocolate Cosmos */
+    border-radius: 5px;
+}
+
+/*Card Section Styling*/
+.card-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.card {
+    background-color: #ABA361; 
+    border: 2px solid #733635;
+    padding: 15px; /* Padding inside each card */
+    flex: 1; /* Equal space for all cards */
+    text-align: center;
+    border-radius: 4px;
+}
+/*Button Styling*/
+#learn-more button {
+    background-color: #733635; /* Garnet */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 20px auto; /* Center the button */
+    display: flex;
+}
+#learn-more button a {
+    color: #BAD9B5;
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+ 
+}
+#learn-more button:hover{
+    background-color: #ABA361; /* Chocolate Cosmos on hover */
+
+}
+#learn-more button a:hover {
+    color: black; /* Change text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+/*Footer Styling */
+.site-footer {
+    background-color: #4e2726; /* Chocolate Cosmos */
+    color:#BAD9B5; /* Soft Green */
+    text-align: center;
+    padding: 15px;
+    font-weight: 900;
+
+}
